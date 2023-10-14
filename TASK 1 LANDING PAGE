@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Beginner's Landing Page</title>
+</head>
+<body>
+    <header id="top-header">
+        <h1>Welcome to My Landing Page</h1>
+    </header>
+    <section class="hero">
+        <h2>BUY WEBSITE OF YOUR CHOICE</h2>
+        <p>WEBSITES OF ALL SORT ARE AVAILABLE</p>
+        <button>Learn More</button>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <h3>Feature 1</h3>
+            <p>EXTREMELY REASONABLE RATES</p>
+        </div>
+        <div class="feature">
+            <h3>Feature 2</h3>
+            <p>QUICK DELIVERY</p>
+        </div>
+    </section>
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>E-COMMERCE WEBSITES</p>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>PORTFOLIOS</p>
+        </div>
+    </section>
+    <STYle>/* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Style the header */
+        #top-header {
+            background-color: lightgray; /* Change the background color to light gray */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        /* Style the hero section */
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            text-align: center;
+            padding: 100px;
+            color: #fff;
+        }
+        
+        /* Style buttons */
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        /* Style features section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f0f0f0;
+            padding: 40px;
+        }
+        
+        /* Style individual features */
+        .feature {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        /* Style the products section */
+        .products {
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 40px;
+        }
+        
+        /* Style individual products */
+        .product {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        /* Style the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        </STYle>
+    <footer> Landing Page</footer>
+    <script src="script.js"></script>
+</body>
+</html>
